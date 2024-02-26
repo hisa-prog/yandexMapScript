@@ -25,7 +25,6 @@ const Home: NextPage = () => {
         id="yandexMap"
         className="h-[88vh] w-screen border-2 border-green-600"
       >
-        {/* <YandexMap /> */}
       </div>
     </>
   );
