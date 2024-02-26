@@ -19,15 +19,7 @@ const Home: NextPage = () => {
     if (isFirstLoading) setIsFirstLoading(false);
   }, []);
 
-  return (
-    <>
-      <div
-        id="yandexMap"
-        className="h-[88vh] w-screen border-2 border-green-600"
-      >
-      </div>
-    </>
-  );
+  return <div id="yandexMap" className="h-[92vh] w-screen" />;
 };
 
 export default Home;
